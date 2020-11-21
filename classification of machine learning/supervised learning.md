@@ -1,4 +1,4 @@
 supervised learning 
-&nbsp;
+"\n"
 <img width="400" src="Capture.JPG">
 
