@@ -9,5 +9,20 @@ Supervised learning is a learning in which we teach or train the machine using d
  Suervised learning দিয়ে আমরা prediction মুলক কাজ করতে পারি।<br>
 
 Supervised learning classified into two categories of algorithms: <br>
-Classification: A classification problem is when the output variable is a category, such as “Red” or “blue” or “disease” and “no disease”.
-Regression: A regression problem is when the output variable is a real value, such as “dollars” or “weight”.
+Classification: A classification problem is when the output variable is a category, such as “Red” or “blue” or “disease” and “no disease”.<br>
+Regression: A regression problem is when the output variable is a real value, such as “dollars” or “weight”.<br>
+<br>
+Supervised learning deals with or learns with “labeled” data.Which implies that some data is already tagged with the correct answer.
+<br>
+Types:-
+<br>
+Regression
+Logistic Regression
+Classification
+Naïve Bayes Classifiers
+Decision Trees
+Support Vector Machine
+<br><br>
+Supervised learning allows collecting data and produce  data output from the previous experiences.
+Helps to optimize performance criteria with the help of experience.
+Supervised machine learning helps to solve various types of real-world computation problems.
