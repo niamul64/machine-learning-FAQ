@@ -15,12 +15,12 @@ Supervised learning deals with or learns with “labeled” data.Which implies t
 <br>
 Types:-
 <br>
-Regression<br>
-Logistic Regression<br>
-Classification<br>
-Naïve Bayes Classifiers<br>
-Decision Trees<br>
-Support Vector Machine<br>
+1.Regression<br>
+2.Logistic Regression<br>
+3.Classification<br>
+4.Naïve Bayes Classifiers<br>
+5.Decision Trees<br>
+6.Support Vector Machine<br>
 <br><br>
 Supervised learning allows collecting data and produce  data output from the previous experiences.<br>
 Helps to optimize performance criteria with the help of experience.<br>
