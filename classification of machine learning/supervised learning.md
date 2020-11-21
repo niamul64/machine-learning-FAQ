@@ -1,11 +1,10 @@
-<strong>supervised learning :<strong><br>
-
+<strong>supervised learning :<strong>
 Supervised learning is a learning in which we teach or train the machine using data which is well labeled that means some data is already tagged with the correct answer. After that, the machine is provided with a new set of data so that supervised learning algorithm analyses the training data and produces a correct outcome from labeled data.
-<br>
+<br><br><br>
 ধরি, এখানে ১০০০ well lebeled data দিয়ে রাখছে।
 এখন এর মদ্ধে ৮০০ আমরা মেশিন কে train করানর জন্য ব্যাবহার করব এবং ২০০ দিয়ে test করব তাহলে আমদের মেশিন experiment এর জন্য ready.
 এখন আমরা meta data input নিয়ে আমদের প্রয়জনিয় data বের করতে পারব।
- <br>
+ <br><br><br>
  Suervised learning দিয়ে আমরা prediction মুলক কাজ করতে পারি।<br>
 
 Supervised learning classified into two categories of algorithms: <br>
@@ -16,13 +15,13 @@ Supervised learning deals with or learns with “labeled” data.Which implies t
 <br>
 Types:-
 <br>
-Regression
-Logistic Regression
-Classification
-Naïve Bayes Classifiers
-Decision Trees
-Support Vector Machine
+Regression<br>
+Logistic Regression<br>
+Classification<br>
+Naïve Bayes Classifiers<br>
+Decision Trees<br>
+Support Vector Machine<br>
 <br><br>
-Supervised learning allows collecting data and produce  data output from the previous experiences.
-Helps to optimize performance criteria with the help of experience.
-Supervised machine learning helps to solve various types of real-world computation problems.
+Supervised learning allows collecting data and produce  data output from the previous experiences.<br>
+Helps to optimize performance criteria with the help of experience.<br>
+Supervised machine learning helps to solve various types of real-world computation problems.<br>
