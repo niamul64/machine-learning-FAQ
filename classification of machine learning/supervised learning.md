@@ -1,5 +1,4 @@
-supervised 
-learning 
+<strong>supervised learning :<strong>
 
-<img width="400" src="Capture.JPG">
+
 
