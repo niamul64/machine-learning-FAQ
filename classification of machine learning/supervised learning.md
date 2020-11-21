@@ -1,3 +1,4 @@
 supervised learning 
-<img width="250" src="Capture.JPG">
+(<-- two spaces)
+<img width="400" src="Capture.JPG">
 
