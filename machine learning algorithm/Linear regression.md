@@ -15,7 +15,7 @@ R-squared is a goodness-of-fit measure for linear regression models.<br>
 <img width="300" src= "pic/r-squre.JPG"/>
 <br>
 সুত্রঃ r^2 = 1- (sum_Of_all_Errors / some_of_squre_varient_of_mean)
-<img width="501" src= "pic/r_squre.png"/>
+<img width="1000" src= "pic/r_squre.png"/>
 
 
 
