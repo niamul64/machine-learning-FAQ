@@ -5,7 +5,7 @@
 Unsupervised learning is the training of machine using information that is neither classified nor labeled and allowing the algorithm to act on that information without guidance. Here the task of machine is to group unsorted information according to similarities, patterns and differences without any prior training of data. 
 <br><br><br>
 
-<img width="300" src= "unsupervised learning.JPG"/>
+<img width="300" src= "pic/unsupervised learning.JPG"/>
 
 <br>
 Unsupervised learning হল, অনেক গুলা unlabeled data থেকে grouping করার মাদ্ধমে আক্তা ফলাফল দেয়া
