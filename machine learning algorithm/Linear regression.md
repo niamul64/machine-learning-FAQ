@@ -12,7 +12,7 @@ Rule: y = b0 + b1 x
 
 After fitting a linear regression model, you need to determine how well the model fits the data.<br>
 R-squared is a goodness-of-fit measure for linear regression models.<br>
-<img width="300" src= "pic/r_squre.JPG"/>
+<img width="300" src= "pic/r-squre.JPG"/>
 <br>
 সুত্রঃ r^2 = 1- (sum_Of_all_Errors / some_of_squre_varient_of_mean)
 <img width="501" src= "pic/r_squre.png"/>
