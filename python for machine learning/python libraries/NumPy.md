@@ -107,5 +107,11 @@ np.logspace(0,10,5, base =2) # here,(log_base 2) base =2<br>
 np.logspace(0,10,5, base =np.e ) # here,(log_base epsilon) base =epsilon<br><br>
 
 <br>
-log_space_point_distribution.JPG
- <img width="300" src= "pic/log_space_point_distribution.JPG"/> <br>
+
+ <img width="450" src= "pic/log_space_point_distribution.JPG"/> <br>
+ <br><br><br>
+<strong> diagonal matrix making function 'diag':</strong><br>
+code: np.diag([1,2,3])
+output: array([[1, 0, 0],
+              [0, 2, 0],
+              [0, 0, 3]])
