@@ -115,3 +115,45 @@ code: np.diag([1,2,3])
 output: array([[1, 0, 0],
               [0, 2, 0],
               [0, 0, 3]])
+
+
+<br><br><br>
+<strong>Random Number: </strong><br>
+random number generating function<br>
+np.random.rand(4) #1d matrix<br>
+np.random.rand(4,3) #2d matrix<br>
+np.random.rand(4,4,4) #3d matrix<br>
+
+code:<br>
+print(np.random.rand(4)) #1d matrix<br>
+print("")<br>
+print("")<br>
+print(np.random.rand(2,2)) #2d matrix<br>
+print("")<br>
+print("")<br>
+print(np.random.rand(2,2,2)) #3d matrix)<br>
+print("")<br>
+print("")<br><br>
+
+output: <br>
+[0.47174969 0.61137453 0.50886639 0.36165707]<br>
+<br><br>
+
+[[0.55637462 0.30024987]<br>
+ [0.4895491  0.73093113]]<br>
+
+<br><br>
+[[[0.7173619  0.61072548]<br>
+  [0.93320895 0.89540955]]<br>
+
+ [[0.41259348 0.95140771]<br>
+  [0.50621412 0.76924433]]]<br>
+
+
+   
+<br><br><br>
+<strong> make array of random integer numbers:</strong><br>
+<br> sample:<br>
+np.random.randint(lower limit,lower limit +1 ,কয় টা সংখ্যা লাগবে )
+<br> np.random.randint(0,10,10 ) <br>
+<img width="450" src= "pic/randint.JPG"/> <br><br><br>
