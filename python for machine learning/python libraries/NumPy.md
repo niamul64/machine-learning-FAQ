@@ -322,7 +322,12 @@ print(arr+arr)<br>
  [12 10  4 18  8  0  4]]<br>
  <br>
  same vabe '-', '*', '/'  kora jay
- 
+  <br>
+ <br>more use: <br>
+ arr = np.arange(1,13).reshape(4,3) <br>
+arr2 = np.arange(0,12).reshape(4,3) <br>
+ <br>
+print(arr/arr2) <br>
  
  <br><br><br>
 
