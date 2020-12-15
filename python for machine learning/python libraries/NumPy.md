@@ -68,10 +68,10 @@ identity matrix:<br>
 eye(row)<br>
 <br><br>
 output:<br><br>
-array([[1., 0., 0., 0.],
-       [0., 1., 0., 0.],
-       [0., 0., 1., 0.],
-       [0., 0., 0., 1.]])
+array([[1., 0., 0., 0.],<br>
+       [0., 1., 0., 0.],<br>
+       [0., 0., 1., 0.],<br>
+       [0., 0., 0., 1.]])<br>
 
 
 <br><br><br>
@@ -156,4 +156,173 @@ output: <br>
 <br> sample:<br>
 np.random.randint(lower limit,lower limit +1 ,কয় টা সংখ্যা লাগবে )
 <br> np.random.randint(0,10,10 ) <br>
-<img width="450" src= "pic/randint.JPG"/> <br><br><br>
+<img width="450" src= "pic/randint.JPG"/> <br>
+<img width="450" src= "pic/2d matric randint.JPG"/> 
+<br>
+<br><br>
+
+# now
+we can reshape the matrix. By 'reshape()'
+<br>
+
+#### code:
+arr=np.random.randint(0,10,10 )<br>
+arr # first making a 1d matrix<br>
+arr.reshape(2,5) #re shape the array <br>
+#### output:
+array([8, 9, 1, 6, 0, 8, 7, 0, 1, 2])<br><br><br>
+array([[8, 9, 1, 6, 0],<br>
+       [8, 7, 0, 1, 2]])<br>
+
+### or
+#### code:
+arr=np.random.randint(0,10,(4,3) )<br>
+print(arr) # first making a 1d matrix<br>
+#re shape the array<br>
+print() <br>
+print() <br>
+arr= arr.reshape(2,6)<br>
+print(arr) <br>
+#### output:
+[[7 6 0]<br>
+ [9 1 9]<br>
+ [4 8 2]<br>
+ [8 2 6]]<br>
+<br><br>
+
+[[7 6 0 9 1 9]<br>
+ [4 8 2 8 2 6]]<br>
+
+
+ <br>
+
+
+### more use of re shape or reshape
+### code:
+arr = np.arange(1,13).reshape(4,3)<br>
+arr2 = np.arange(1,13).reshape(4,3)<br>
+print(arr)<br>
+### output:
+[[ 1  2  3]
+ [ 4  5  6]
+ [ 7  8  9]
+ [10 11 12]]
+
+<br><br><br>
+
+### এখন matrix এর মধ্যে ম্যাক্সিমাম value or minumum value or max vlue টা আমার কথায় আছে (index of max value) :
+<br>
+
+#### code:
+arr=np.random.randint(0,10,(2,6) ) # making a random matrix<br>
+print(arr)<br>
+print()<br>
+print ('max: ',arr.max()) #finds maximum number in the array<br>
+print ('index :' ,arr.argmax()) #finds the index of maximum number in the array<br>
+print("",end="\n\n")<br>
+print ('min: ',arr.min()) #finds min number in the array<br>
+print ('index :' ,arr.argmin()) #finds the index of mim number in the array<br>
+#### output:
+[[8 0 1 8 7 7]<br>
+ [5 4 4 9 7 5]]<br>
+<br><br>
+max:  9<br>
+index : 9<br>
+min:  0<br>
+index : 0<br>
+<br><br>
+
+### matrix shape finding / কয় dimention array(1d,2d,3d)?
+arr=np.random.randint(0,10,(2,6) ) # making a random matrix<br>
+arr.shape ## shape finding<br>
+
+arr.ndim  #কয় dimention array(1d,2d,3d)?<br>
+
+arr.size  #total elements<br>
+<br><br>
+
+### data type of a matrix elements
+arr=np.random.randint(0,10,(2,6) )<br>
+arr.dtype<br>
+arr=np.random.rand(2,6)<br>
+arr.dtype<br>
+<br>
+<strong>access a value from 2d matrix</strong>
+arr[2][2]<br>
+অথবা,<br>
+arr[2,2]<br>
+
+
+
+<br><br>
+
+### equals to in numpy
+#### arr2 = arr  #এটা copy হই না । address pass হই
+<br><br>
+
+## to copy array : 
+
+### arr2 =arr.copy()
+
+<br><br>
+
+## selection (select a part of a matrix and make sub matrix):
+<img width="450" src= "pic/selection.JPG"/> <br>
+
+#### input:
+arr=np.random.randint(0,10,(5,7) )<br>
+print(arr)<br>
+print()<br>
+arr[:2,1:]<br>
+
+#### output:
+[[6 5 2 0 0 4 2]<br>
+ [4 8 8 5 7 6 2]<br>
+ [4 7 7 8 6 2 0]<br>
+ [5 0 7 6 3 2 0]<br>
+ [0 4 5 9 7 5 2]]<br>
+
+array([[5, 2, 0, 0, 4, 2],<br>
+       [8, 8, 5, 7, 6, 2]])<br>
+       
+
+## selection (conditional selection):
+<img width="450" src= "pic/conditional selection.JPG"/> <br>
+arr=np.random.randint(0,10,(5,7) )<br>
+print(arr)<br>
+print()<br>
+print(arr>4)<br>
+print()<br>
+print(arr[arr>4])<br>
+<br><br><br>
+
+### here we can find the all function about numpy arithmatic operations: 
+<a src="## https://docs.scipy.org/doc/numpy/reference/ufuncs.html">## https://docs.scipy.org/doc/numpy/reference/ufuncs.html </a>
+<br><br><br>
+
+## arethmatic sum of 2 matrix
+<br>
+
+#### code:
+arr=np.random.randint(0,10,(5,7) )<br>
+print(arr)<br>
+print()<br>
+print(arr+arr)<br>
+#### output:
+[[5 7 9 6 1 7 3]<br>
+ [3 4 5 3 3 3 5]<br>
+ [3 1 0 9 1 3 7]<br>
+ [5 6 8 9 0 4 3]<br>
+ [6 5 2 9 4 0 2]]<br>
+
+[[10 14 18 12  2 14  6]<br>
+ [ 6  8 10  6  6  6 10]<br>
+ [ 6  2  0 18  2  6 14]<br>
+ [10 12 16 18  0  8  6]<br>
+ [12 10  4 18  8  0  4]]<br>
+ <br>
+ same vabe '-', '*', '/'  kora jay
+ 
+ 
+ <br><br><br>
+
